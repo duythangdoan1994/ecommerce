@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../shop/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:30
+AUTHENTICATION_BACKENDS	../shop/settings.py	/^AUTHENTICATION_BACKENDS = ($/;"	kind:variable	line:127
+AUTH_PASSWORD_VALIDATORS	../shop/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:112
+AppConfig	../ecommerce/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../shop/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:18
+DATABASES	../shop/settings.py	/^DATABASES = {$/;"	kind:variable	line:96
+DEBUG	../shop/settings.py	/^DEBUG = True$/;"	kind:variable	line:28
+EcommerceConfig	../ecommerce/apps.py	/^class EcommerceConfig(AppConfig):$/;"	kind:class	line:4
+HAYSTACK_CONNECTIONS	../shop/settings.py	/^HAYSTACK_CONNECTIONS = {$/;"	kind:variable	line:132
+INSTALLED_APPS	../shop/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:35
+LANGUAGE_CODE	../shop/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:152
+MIDDLEWARE	../shop/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:50
+OSCAR_INITIAL_LINE_STATUS	../shop/settings.py	/^OSCAR_INITIAL_LINE_STATUS = 'Pending'$/;"	kind:variable	line:141
+OSCAR_INITIAL_ORDER_STATUS	../shop/settings.py	/^OSCAR_INITIAL_ORDER_STATUS = 'Pending'$/;"	kind:variable	line:140
+OSCAR_MAIN_TEMPLATE_DIR	../shop/settings.py	/^from oscar import OSCAR_MAIN_TEMPLATE_DIR$/;"	kind:namespace	line:15
+OSCAR_ORDER_STATUS_PIPELINE	../shop/settings.py	/^OSCAR_ORDER_STATUS_PIPELINE = {$/;"	kind:variable	line:142
+ROOT_URLCONF	../shop/settings.py	/^ROOT_URLCONF = 'shop.urls'$/;"	kind:variable	line:62
+SECRET_KEY	../shop/settings.py	/^SECRET_KEY = '$m7o^#juu&r^)$1((!fn9(4x!0=_wo7h7x$fy63rl!q8$p&q7o'$/;"	kind:variable	line:25
+SITE_ID	../shop/settings.py	/^SITE_ID = 1$/;"	kind:variable	line:47
+STATIC_URL	../shop/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:166
+TEMPLATES	../shop/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:64
+TIME_ZONE	../shop/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:154
+TestCase	../ecommerce/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../shop/settings.py	/^USE_I18N = True$/;"	kind:variable	line:156
+USE_L10N	../shop/settings.py	/^USE_L10N = True$/;"	kind:variable	line:158
+USE_TZ	../shop/settings.py	/^USE_TZ = True$/;"	kind:variable	line:160
+WSGI_APPLICATION	../shop/settings.py	/^WSGI_APPLICATION = 'shop.wsgi.application'$/;"	kind:variable	line:90
+__init__.py	../ecommerce/__init__.py	1;"	kind:file	line:1
+__init__.py	../ecommerce/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../shop/__init__.py	1;"	kind:file	line:1
+admin	../ecommerce/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../shop/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../ecommerce/admin.py	1;"	kind:file	line:1
+application	../shop/urls.py	/^from oscar.app import application$/;"	kind:namespace	line:18
+application	../shop/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../ecommerce/apps.py	1;"	kind:file	line:1
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_core_apps	../shop/settings.py	/^from oscar import get_core_apps$/;"	kind:namespace	line:16
+get_wsgi_application	../shop/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+home.py	../ecommerce/views/home.py	1;"	kind:file	line:1
+include	../shop/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../ecommerce/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../ecommerce/models.py	1;"	kind:file	line:1
+name	../ecommerce/apps.py	/^    name = 'ecommerce'$/;"	kind:variable	line:5
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../shop/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../shop/wsgi.py	/^import os$/;"	kind:namespace	line:10
+render	../ecommerce/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	../shop/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../ecommerce/tests.py	1;"	kind:file	line:1
+url	../shop/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:16
+urlpatterns	../shop/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
+urls.py	../shop/urls.py	1;"	kind:file	line:1
+views.py	../ecommerce/views.py	1;"	kind:file	line:1
+wsgi.py	../shop/wsgi.py	1;"	kind:file	line:1
